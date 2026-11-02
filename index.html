@@ -99,41 +99,75 @@
 						<!-- Research -->
 							<article id="Research">
 								<h2 class="major">Research</h2>
-								<p>My research is focused on understanding star formation at the scale of individual molecular clouds, 
-								using numerical simulations and analytical models. I am particularly interested in understanding the role of stellar
-								feedback. Indeed, much of my work so far has focused on the impact of protostellar jet feedback.
-								My work includes analyzing existing simulation data, running new simulations, and code development for star 
-                                                                formation simulations. A complete list of the papers that I am on can be found here: 
-								<a href=https://ui.adsabs.harvard.edu/public-libraries/ge7jR7XIT_yvMFpxb6CzFQ>ADS Library</a></p>
+								<h3>Research Overview</h3>
+								<p>My research seeks to understand the physics of star formation, using numerical simulations and 
+								analytical models. My work focuses on star formation at the cloud scale and I am particularly 
+								interested in understanding the role of stellar feedback, especially protostellar jet feedback. 
+								My work includes analyzing existing simulation data, 
+								running new simulations, and code development for star formation simulations.</p>
+								<p>A complete list of the papers that I am on can be found at this 
+								<a href=https://scixplorer.org/public-libraries/ge7jR7XIT_yvMFpxb6CzFQ>SciX Library</a>.</p>
 
 								
-								<p><b>Protostellar Jets in Torch</b></p>
-                                                                <p>Over the last several years, I have developed a new module for implementing protostellar jet feedback
-                                                                in Torch.  Torch is a numerical framework that is optimized for simulating the formation of star clusters from
-                                                                the initial collapse of dense gas through gas expulsion and late stage cluster evolution 
-                                                                (<a href=https://iopscience.iop.org/article/10.3847/1538-4357/ab4db1>Wall et al.2019</a>, 
-                                                                <a href=https://iopscience.iop.org/article/10.3847/1538-4357/abc011>2020</a>). 
-                                                                Previous work with Torch has included various modes of stellar feedback, but not protostellar jets 
-                                                                (e.g.,<a href=https://academic.oup.com/mnras/article/521/1/1338/7055957>Cournoyer-Cloutier et al. 2023</a>). 
-                                                                By developing a new module to include protostellar jets, I can use Torch to explore the role of protostellar 
+								<h3>Protostellar Jets in Torch</h3>
+								<p>Much of my work uses <a href=https://torch-sf.github.io/>Torch</a>, a numerical framework
+								that is optimized for simulating the formation and evolution of stellar clusters. 
+                                In addition to running <a href=https://torch-sf.github.io/>Torch</a> simulations, I also 
+								contribute to development of the <a href=https://torch-sf.github.io/>Torch</a> code.
+								As presented in <a href=https://doi.org/10.3847/1538-3881/ae633f>Appel et al. 2026</a>,
+								I developed a new module for implementing protostellar jet feedback in Torch.  
+								<!-- Torch is a numerical framework that is optimized for simulating the formation of star clusters from
+                                the initial collapse of dense gas through gas expulsion and late stage cluster evolution 
+                                (<a href=https://iopscience.iop.org/article/10.3847/1538-4357/ab4db1>Wall et al.2019</a>, 
+                                <a href=https://iopscience.iop.org/article/10.3847/1538-4357/abc011>2020</a>). 
+                                Previous work with Torch has included various modes of stellar feedback, but not protostellar jets 
+                                (e.g.,<a href=https://academic.oup.com/mnras/article/521/1/1338/7055957>Cournoyer-Cloutier et al. 2023</a>). 
+                                By developing a new module to include protostellar jets, I can use Torch to explore the role of protostellar 
 								jets in star cluster formation and evolution. The implementation of my new protostellar jets module -- and 
 								initial results from cluster simulations including jets are described in 
-								<a href=https://doi.org/10.48550/arXiv.2509.15311>Appel et a. 2025</a>.</p>
-                                                                <!--<center><figure>
-                                                                        <img src="images/research_plot_jets.jpg" alt="" style = "width:80%"/>
-                                                                        <figcaption style="font-size: 16px"> Caption placeholder.. </figcaption>
-                                                                </figure></center>-->
+								<a href=https://doi.org/10.48550/arXiv.2509.15311>Appel et a. 2025</a>.</p> -->
+                                
+								<!--<center><figure>
+                                <img src="images/research_plot_jets.jpg" alt="" style = "width:80%"/>
+                                <figcaption style="font-size: 16px"> Caption placeholder.. </figcaption>
+                                </figure></center>-->
 
-								<p><b>Modeling Star Formation</b></p>
+								<p><b><a href=https://doi.org/10.3847/1538-3881/ae633f>Appel et al. 2026</a>: Protostellar Jets in 
+								Star Cluster Formation and Evolution. I. Implementation and Initial Results </b></p>
+								<p>This paper presents our new implementation of protostellar jet feedback in 
+								<a href=https://torch-sf.github.io/>Torch</a> and describes initial results using the new module.
+								We find that the inclusion of protostellar jets slows star formation, even in clouds of up to 
+								20,000 solar masses. We also find that the star formation rate is strongly impacted by the 
+								chosen protostellar jet parameters. Our new module for protostellar jets opens up many new 
+								research questions to be explored with <a href=https://torch-sf.github.io/>Torch</a>.</p>
+
+								<p>This paper was discussed on the AAS Journal Author Series <a href=https://youtu.be/1GM2dcabosQ>here</a>.</p>
+
+								<h3>Modeling Star Formation</h3>
 								<p>I am also interested in using analytical models, such as the density probability 
 								distribution function (PDF), to understand how star formation is influenced by various physical processes.
 								In particular, my work uses the density PDF and measures of the gas dynamics to study simulations of 
 								star-forming regions that include different physical processes, including self-gravity, supersonic 
 								turbulence, magnetic fields, and protostellar jet feedback.</p>
 
-								<p>The following plots show a series of projection plots from the simulations used in our 2022 paper 
-								(<a href=http://doi.org/10.3847/1538-4357/ac4be3>Appel et al. 2022</a>), which explores the density PDF 
-								of simulations that progressively include more physical processes.</p>
+								<p><b><a href=https://iopscience.iop.org/article/10.3847/1538-4357/ace897>Appel et al. 2023</a>:
+								What Sets the Star Formation Rate of Molecular Clouds? The Density Distribution as a Fingerprint of 
+								Compression and Expansion Rates</b></p>
+								<a>In this paper, we explored the gas dynamics of simulations of star-forming regions. 
+								We measured the expansion and compression rates of the gas to explore the role of different physical processes,
+								including protostellar jets, in setting the gas dynamics in star-forming regions. We find that 
+								self-gravity controls the dynamics at high densities, that supersonic turbulence increases the 
+								compression and expansion rate at a range of densities, and protostellar feedback produces rapidly
+								expanding and contracting gas.</p>
+
+								<p><b><a href=http://doi.org/10.3847/1538-4357/ac4be3>Appel et al. 2022</a>: The Effects of 
+								Magnetic Fields and Outflow Feedback on the Shape and Evolution of the Density Probability 
+								Distribution Function in Turbulent Star-forming Clouds</b></p>
+								<p>The following plots show a series of projection plots from the simulations used in this 
+								paper, which explores the density PDF of simulations that progressively include more physical processes.
+								We found that the density PDF does not follow a pure lognormal when self-gravity and protostellar feedback
+								are included. Instead, self-gravity produces a power-law tail in the high-density gas and protostellar
+								feedback produces a time-varying excess of low-density gas.</p>
 								<!-- <span class="image main"><img src="images/research_plot_1.jpg" alt="" /></span>-->
 								<center><figure>
 									<img src="images/research_plot_1.jpg" alt="" style = "width:80%"/>
@@ -143,28 +177,22 @@
                                                                 	<a href=https://www.mso.anu.edu.au/~chfeder/pubs/ineff_sf/ineff_sf.html>here</a>. </figcaption>
 								</figure></center>
 
-								<p></p>
 
-								<p>We explored the gas dynamics of simulations of star-forming regions in
-								our 2023 paper (<a href=https://iopscience.iop.org/article/10.3847/1538-4357/ace897>Appel et al. 2023</a>).  
-								We measured the expansion and compression rates of the gas to explore the role of different physical processes, 
-								including protostellar jets, in setting the gas dynamics in star-forming regions.</p>
-
-								<h2 class="major">Publications</h2>
+								<!-- <h2 class="major">Publications</h2>
 								<p> A complete list of the papers that I am on can be found in this
 								<a href=https://scixplorer.org/public-libraries/ge7jR7XIT_yvMFpxb6CzFQ>SciX Library</a>.</p>
 								
 								<h3>Selected First and Second Author Papers</h3>
-								<p> &dagger; - indicates an undergraduate student mentee </p>
+								<p> &dagger; - indicates an undergraduate student mentee </p> -->
 								<!-- <p> <a href=https://arxiv.org/abs/2312.06509> Polak, B., Mac Low, M.-M., Klessen, R. S., Teh, J. W., Cournoyer-Cloutier, C., Andersson, E. P., <b>Appel, S. M.</b>, Tran, A., Lewis, S. C., Wilhelm, M. J. C., Portegies Zwart, S., Glover, S. C. O., Wang, L., McMillan, S. L. W., <i>"Massive Star Cluster Formation I. High Star Formation Efficiency While Resolving Feedback of Individual Stars"</i>, 2023, arXiv e-prints, arXiv:2312.06509, doi: 10.48550/arXiv.2312.06509</a> </p>-->
-								<p> <a href=https://doi.org/10.48550/arXiv.2509.15311><b>Appel, S. M.</b>, Burkhart, B., Mac Low, M.-M., Andersson, E. P., Cournoyer-Cloutier, C., Lewis, S., McMillan, S. L. W., Polak, B., Portegies Zwart, S., Tran, A., & Wilhelm, M. J. C., <i>"Protostellar Jets in Star Cluster Formation and Evolution: I. Implementation and Initial Results"</i>, 2025, arXiv e-prints, arXiv:2509.15311, doi:10.48550/arXiv.2509.15311</a></p>
+								<!-- <p> <a href=https://doi.org/10.48550/arXiv.2509.15311><b>Appel, S. M.</b>, Burkhart, B., Mac Low, M.-M., Andersson, E. P., Cournoyer-Cloutier, C., Lewis, S., McMillan, S. L. W., Polak, B., Portegies Zwart, S., Tran, A., & Wilhelm, M. J. C., <i>"Protostellar Jets in Star Cluster Formation and Evolution: I. Implementation and Initial Results"</i>, 2025, arXiv e-prints, arXiv:2509.15311, doi:10.48550/arXiv.2509.15311</a></p>
 								<p> <a href=https://doi.org/10.3847/1538-4357/ad99d5>&dagger; Kiihne, A., <b>Appel, S. M.,</b> Burkhart, B., Semenov, V. A., Federrath, C., <i>"Fitting Probability Distribution Functions in Turbulent Star-Forming Molecular Clouds"</i>, 2025, ApJ, 979, 89, doi:10.3847/1538-4357/ad99d5</a> </p>
-								<p> <a href=https://iopscience.iop.org/article/10.3847/1538-4357/ace897><b>Appel, S. M.,</b> Burkhart, B., Semenov, V. A., Federrath, C., Rosen, A. L., Tan, J. C., <i>"What Sets the Star Formation Rate of Molecular Clouds? The Density Distribution as a Fingerprint of Compression and Expansion Rates"</i>, 2023, ApJ, 954, 93, doi: 10.3847/1538-4357/ace897</a></p>
+								<p> <a href=https://iopscience.iop.org/article/10.3847/1538-4357/ace897><b>Appel, S. M.,</b> Burkhart, B., Semenov, V. A., Federrath, C., Rosen, A. L., Tan, J. C., <i>"What Sets the Star Formation Rate of Molecular Clouds? The Density Distribution as a Fingerprint of Compression and Expansion Rates"</i>, 2023, ApJ, 954, 93, doi: 10.3847/1538-4357/ace897</a></p>-->
 								<!-- <p> <a href=https://academic.oup.com/mnras/article/521/1/1338/7055957>Cournoyer-Cloutier, C., Sills, A., Harris, W. E., <b>Appel, S. M.,</b> Lewis, S. C., Polak, B., Tran, A., Wilhelm, M. J. C., Mac Low, M.-M., McMillan, S. L. W., Zwart, S. P., <i>"Early evolution and three-dimensional structure of embedded star clusters"</i>, 2023, MNRAS, 521, 1338, doi: 10.1093/mnras/stad568</a> </p> -->
-								<p> <a href=https://iopscience.iop.org/article/10.3847/1538-4357/ac4be3><b>Appel, S. M.,</b> Burkhart, B., Semenov, V. A., Federrath, C., Rosen, A. L., <i>"The Effects of Magnetic Fields and Outflow Feedback on the Shape and Evolution of the Density Probability Distribution Function in Turbulent Star-forming Clouds"</i>, 2022, ApJ, 927, 75, doi: 10.3847/1538-4357/ac4be3</a></p>
+								<!-- <p> <a href=https://iopscience.iop.org/article/10.3847/1538-4357/ac4be3><b>Appel, S. M.,</b> Burkhart, B., Semenov, V. A., Federrath, C., Rosen, A. L., <i>"The Effects of Magnetic Fields and Outflow Feedback on the Shape and Evolution of the Density Probability Distribution Function in Turbulent Star-forming Clouds"</i>, 2022, ApJ, 927, 75, doi: 10.3847/1538-4357/ac4be3</a></p> -->
 								<!-- <p> <a href=https://iopscience.iop.org/article/10.3847/1538-4357/abc484>B. Burkhart, <b>S. Appel,</b> S. Bialy, J. Cho, A. J. Christensen, D. Collins, C. Federrath, D. Fielding, D. Finkbeiner, A. S. Hill, J. C. Ibanez-Mejia, M. R. Krumholz, A. Lazarian, M. Li, P. Mocz, M.-M. Mac Low, J. Naiman, S. K. N. Portillo, B. Shane, Z. Slepian, Y. Yuan, <i>“The Catalogue for Astrophysical Turbulence Simulations (CATS)”</i>, 2020, ApJ, 905, 14, </a></p> -->
-								<h3>My PhD Thesis</h3>
-								<p><a href=https://doi.org/doi:10.7282/t3-p3kg-dk21>Appel, S. M., <i>"Exploring the effect of protostellar feedback on star formation and molecular cloud dynamics"</i>, 2024, Rutgers University, doi:10.7282/t3-p3kg-dk21</a> </p>
+								<!-- <h3>My PhD Thesis</h3>
+								<p><a href=https://doi.org/doi:10.7282/t3-p3kg-dk21>Appel, S. M., <i>"Exploring the effect of protostellar feedback on star formation and molecular cloud dynamics"</i>, 2024, Rutgers University, doi:10.7282/t3-p3kg-dk21</a> </p> -->
 							</article>
 
 						<!-- Teaching -->
